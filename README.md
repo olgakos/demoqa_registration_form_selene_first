@@ -1,9 +1,12 @@
-for the Python 5 course
-
-# QA GURU Python 5 поток
+for the QA GURU Python course #5
 ### Тема 1
+## demoqa
 ## Описание проекта:
-Пример возможностей фреймворка Selene 
+Пример автоматизирваонного тестирваония с фреймворком Selene. 
+
+<br>practice_form_test_step1.py - вариант решения с простым кодом 
+<br>practice_form_test_step2.py - вариант решения с улучшенным кодом 
+<br>practice_form_test_step3.py - вариант решения с улучшенным кодом2  
 
 ## Тестируемое веб-приложение:
 Проверка заполнения текстовой формы на странице
@@ -11,12 +14,13 @@ for the Python 5 course
 https://demoqa.com/automation-practice-form
 ```
 ## Как запустить проект на Windows:
-Клонировать репозиторий и перейти в него в командной строке:
+1. Клонировать репозиторий и перейти в него в командной строке:
 ```
 git clone https://github.com/olgakos/demoqa_registration_form_selene_first
 cd demoqa_registration_form_selene_first
 ```
-Установить Pytest (например запуском requirements.txt)
+2. Установить Pytest (например из requirements.txt)
+3. Запустить тесты на выполение командой:
 ```
 pytest .
 ```
@@ -28,4 +32,9 @@ pytest .
 - Selene (фреймворк для автоматизированного тестирования веб-приложений на основе Selenium WebDriver)
 
 ### Последнее обновление:
-2023-04-02  (в процессе!)
+2023-04-02  
+
+### Todo:
+* Добавить доп. варианты решений
+* Убрать комментарии
+* Расширить описание
