@@ -1,6 +1,8 @@
 for the QA GURU Python course #5
+
+# QA GURU Python 5 поток
 ### Тема 1
-## demoqa
+
 ## Описание проекта:
 Пример автоматизирваонного тестирования с фреймворком Selene. 
 
