@@ -51,7 +51,6 @@ def test_student_registration_form():
     browser.element('#currentAddress').type('Moscowskaya Street 16')
 
     #State and City
-
     browser.element('#state').perform(command.js.scroll_into_view) #!
     browser.element('#state').click()
     browser.all('[id^=react-select][id*=option]').element_by(
@@ -63,6 +62,7 @@ def test_student_registration_form():
         have.exact_text('Delhi')
     ).click()
 
+    #or:
     # browser.execute_script("window.scrollBy(0, 500)")
     # browser.element('#react-select-3-input').should(be.blank).type('NCR').press_enter()
     # browser.element('#react-select-4-input').should(be.blank).type('Delhi').press_enter()
